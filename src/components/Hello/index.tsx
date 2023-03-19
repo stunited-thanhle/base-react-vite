@@ -1,7 +1,6 @@
 import logo from '~/logo.svg';
 
 const Hello = () => {
-  const a = 1;
   return (
     <div
       style={{
