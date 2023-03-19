@@ -1,6 +1,7 @@
 import logo from '~/logo.svg';
 
 const Hello = () => {
+  const a = 1;
   return (
     <div
       style={{
@@ -29,17 +30,6 @@ const Hello = () => {
         <li>🔨 Eslint</li>
         <li>💅 Prettier</li>
       </ul>
-      <p>Don&apos;t forgot to install Eslint and Prettier in your VSCode</p>
-      <div>
-        <a
-          style={{ color: '#F24C4C' }}
-          target='_blank'
-          href='https://github.com/igdev116/vite-react-ts-eslint-prettier'
-          rel='noreferrer'
-        >
-          Github
-        </a>
-      </div>
     </div>
   );
 };
